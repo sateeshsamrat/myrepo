@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - openjdk8
+
+script: 
+- ls -lrta
+- which java
+- javac Sample.java
+- java Sample
+
